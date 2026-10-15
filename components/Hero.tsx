@@ -54,7 +54,7 @@ export default function Hero() {
     <div className="container flex flex-col items-center">
       {/* Image */}
       <div className="size-22.5 bg-black flex rounded-full overflow-hidden">
-        <Image src="/images/tazim-profile.jpg" alt="Tazim Ansari" width={150} height={150} className="h-full w-full object-cover" priority />
+        <Image src="/images/linkedin-profile.jpg" alt="Tazim Ansari" width={150} height={150} className="h-full w-full object-cover" priority />
       </div>
       {/* content */}
       <div className="text-center mt-4 spacey-y-4">

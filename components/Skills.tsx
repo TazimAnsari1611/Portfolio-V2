@@ -83,7 +83,7 @@ export default function Skills() {
                   return (
                     <li key={skill} title={skill} className="skill-chip group flex min-h-20 min-w-0 flex-col items-center justify-center gap-2 border border-neutral-300 bg-white px-2 py-3 text-sm transition-all duration-200 hover:-translate-y-0.5 hover:border-neutral-900 hover:bg-neutral-50 hover:shadow-[2px_2px_0_0] sm:px-3">
                       <span className="flex size-8 shrink-0 items-center justify-center border border-neutral-200 bg-neutral-50 transition-colors group-hover:border-neutral-900 group-hover:bg-neutral-900 group-hover:text-white sm:size-9">
-                        <svg aria-hidden="true" viewBox={`0 0 ${icon.svg.width} ${icon.svg.height}`} className="size-4 fill-current sm:size-4.5">
+                        <svg aria-hidden="true" viewBox="0 0 24 24" className="size-4 fill-current sm:size-4.5">
                           <path d={icon.path} />
                         </svg>
                       </span>
