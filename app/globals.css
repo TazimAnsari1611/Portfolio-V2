@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-poppins: var(--font-poppins);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-white;
+  }
+  button {
+    @apply cursor-pointer;
+  }
+}
+@layer utilities {
+  .container {
+    @apply px-5 sm:px-[4vw] md:px-[6vw] mx-auto lg:max-w-[65vw] xl:max-w-[70vw] w-full;
+  }
+  .btn {
+    box-shadow: 3px 3px 0 0 black;
+    @apply border px-6 py-3 flex transition;
+  }
+  .btn:is(:hover, :focus) {
+    @apply translate-0.5;
+  }
+}
