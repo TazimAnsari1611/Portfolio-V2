@@ -59,9 +59,9 @@ export default function Hero() {
       {/* content */}
       <div className="text-center mt-4 spacey-y-4">
         <h1 className="font-poppins font-extrabold text-4xl lg:text-6xl uppercase w-full h-full text-neutral-900/90">Tazim Ansari <span className='hero-title' style={{
-            WebkitTextStroke: "1px #171717",
-            WebkitTextFillColor: "white",
-          }}>Front-End</span> Developer
+          WebkitTextStroke: "1px #171717",
+          WebkitTextFillColor: "white",
+        }}>Front-End</span> Developer
         </h1>
 
         <p className="hero-text sm:max-w-md mx-auto text-neutral-600">
